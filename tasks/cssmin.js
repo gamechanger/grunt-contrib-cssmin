@@ -31,7 +31,7 @@ module.exports = function(grunt) {
       } else {
         grunt.file.write(f.dest, min);
         grunt.log.writeln('File ' + f.dest + ' created.');
-        helper.minMaxInfo(min, max);
+        //helper.minMaxInfo(min, max);
       }
     });
   });
